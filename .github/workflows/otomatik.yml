@@ -1,12 +1,8 @@
 name: Html add
 
 on:
-
-  - pull_request
-  - push
-
-#   schedule:
-#     - cron: "0 */11 * * *"
+  schedule:
+    - cron: "0 */11 * * *"
     
 
 jobs:
